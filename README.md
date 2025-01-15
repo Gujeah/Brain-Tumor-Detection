@@ -1,6 +1,6 @@
 
 # **Brain Tumor Detection using MRI Images**
-Dear reviewer Incase you will only find a notebook nly this morning, please have patience with me. I am finalizing the project I will push anytime soon. I had issues which prevented me from finishing on time. Thank you
+Dear reviewer Incase you will only find a notebook nly this morning, please have patience with me. I am finalizing the project I will push anytime soon. I had issues which prevented me from finishing on time My AWS is not even working so am working on that. Thank you
 ## **Problem Statement**
 Brain tumors are life-threatening conditions that require timely and accurate diagnosis. Traditional methods of diagnosis through manual examination of MRI scans can be time-consuming and prone to human error. This project aims to automate the process of brain tumor detection using machine learning and deep learning techniques to improve diagnostic accuracy and efficiency.
 
