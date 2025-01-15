@@ -55,6 +55,11 @@ The Xception model was fine-tuned for **multi-class classification** (four class
 - **Metrics:** Accuracy.
 
 
+### Model Download
+
+The model file can be downloaded from [Google Drive](https://drive.google.com/file/d/10LWo1w0Q1Qw4ETkfAPAZy_KoM5oa5q6z/view?usp=sharing).
+
+
 ---
 
 ### **4. Model Evaluation**
