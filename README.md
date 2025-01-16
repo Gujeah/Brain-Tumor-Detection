@@ -1,8 +1,13 @@
 
 # **Brain Tumor Detection using MRI Images**
+<img src="https://extension.usu.edu/aging/images/a-healthy-brain.jpg" alt="Brain Image" width="1200" height="300"/>
 Dear reviewer Incase you will only find a notebook nly this morning, please have patience with me. I am finalizing the project I will push anytime soon. I had issues which prevented me from finishing on time My AWS is not even working so am working on that. Thank you
+
+
+---
+
 ## **Problem Statement**
-Brain tumors are life-threatening conditions that require timely and accurate diagnosis. Traditional methods of diagnosis through manual examination of MRI scans can be time-consuming and prone to human error. This project aims to automate the process of brain tumor detection using machine learning and deep learning techniques to improve diagnostic accuracy and efficiency.
+Brain tumors are life-threatening conditions that require timely and accurate diagnosis. Traditional methods of diagnosis through manual examination of MRI scans can be time-consuming and prone to human error. This project aims to automate the process of brain tumor detection using machine learning and deep learning techniques for multiclass classification  to improve diagnostic accuracy and efficiency. 
 
 ---
 
@@ -20,8 +25,9 @@ The dataset contains MRI images categorized into four classes:
 
 ## **Project Workflow**
 
-### **1. Data Preprocessing**
+### **1. Data Preprocessing (EDA)**
 - Loaded the dataset and divided it into **training** and **testing** sets.
+- The training data had balanced data so I did not perform any sampling techniques
 - Resized all images to a uniform size of `150x150 pixels`.
 - Applied data augmentation to the training data:
   - **Zoom Range:** 0.1
@@ -74,9 +80,33 @@ The model file can be downloaded from [Google Drive](https://drive.google.com/fi
 - **Validation Accuracy:** ~86%
 - **Test Accuracy:** ~89%
 - The model successfully classified MRI images into the correct categories, demonstrating its potential to assist in real-world diagnostic applications.
+
 ---
+
+## **6. Installation**
+<h4>Clone the repository</h4>
+<pre><code>git clone https://github.com/Gujeah/Brain-Tumor-Detection.git</code></pre> <br><br>
+<h4>environment setup</h4>
+<pre><code> 
+  #Used pipenv
+  pipenv install tensorflow==1.20.0 python 3.9 numpy 1.24 pillow<br>
+  pipenv run
+  
+</code></pre>
+<h4>setting and running a docker image</h4>
+<pre><code> 
+  #building a docker image
+  docker build -t brain-tumour-model . <br><br>
+  #running an image
+  docker run -d -p 8080:8080 brain-tumour-model 
+  
+</code></pre>
+
+
 This project requires further finetuning which is the future work 
+
 ---
+
 ###**Acknowledgement**
 -I would like to thank DataTalks Club in partnership with Saturn Cloud in providing me with the GPUs as well as the knowledge to execute this project successfully.
 
