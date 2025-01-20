@@ -1,7 +1,6 @@
 
 # **Brain Tumor Detection using MRI Images**
 <img src="https://extension.usu.edu/aging/images/a-healthy-brain.jpg" alt="Brain Image" width="1200" height="300"/>
-Dear reviewer Incase you will only find a notebook nly this morning, please have patience with me. I am finalizing the project I will push anytime soon. I had issues which prevented me from finishing on time My AWS is not even working so am working on that. Thank you
 
 
 ---
